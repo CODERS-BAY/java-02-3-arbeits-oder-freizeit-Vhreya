@@ -10,6 +10,8 @@ public class WorkFreeTime {
             System.out.println("It's lunch break.");
         } else if (time >= 8 && time <= 16) {
             System.out.println("It's work time.");
+        } else {
+            System.out.println("It's free time.");
         }
     }
 }
